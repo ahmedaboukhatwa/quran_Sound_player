@@ -1,0 +1,52 @@
+body {
+  background-color: #1C2237;
+  margin: 0;
+  padding: 0; }
+
+.app {
+  position: absolute;
+  transform: translate(-50%, 10%);
+  left: 50%; }
+  .app .player {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    width: 600px;
+    margin-bottom: 10px;
+    border: 1px solid #64FFE0;
+    border-radius: 10px;
+    overflow: hidden; }
+    .app .player #playPauseBTN {
+      width: 50px;
+      height: 50px;
+      border: none;
+      overflow: hidden;
+      border-radius: 50%;
+      background-color: #1C2237;
+      outline: none; }
+      .app .player #playPauseBTN svg {
+        fill: #64FFE0;
+        overflow: hidden; }
+    .app .player .div_track_content {
+      position: absolute;
+      right: 8px;
+      top: 6px; }
+      .app .player .div_track_content span {
+        color: white; }
+      .app .player .div_track_content img {
+        width: 50px; }
+  .app .ul_tracks {
+    padding: 0; }
+    .app .ul_tracks .li_track {
+      margin-bottom: 2px;
+      padding: 10px;
+      cursor: pointer;
+      overflow: hidden;
+      border: 1px solid #64FFE0;
+      border-radius: 10px;
+      width: 600px; }
+      .app .ul_tracks .li_track img {
+        width: 50px; }
+      .app .ul_tracks .li_track span {
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */

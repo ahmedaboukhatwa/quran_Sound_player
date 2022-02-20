@@ -1,0 +1,64 @@
+$black: #1C2237;
+$blue: #64FFE0;
+body {
+  background-color: $black;
+  margin: 0;
+  padding: 0;
+}
+.app{
+  position: absolute;
+  transform: translate(-50%,10%);
+  left: 50%;
+  .player {
+      padding:10px 0px 0px 10px;
+      display: flex;
+      width: 600px;
+      margin-bottom: 10px;
+      border: 1px solid $blue;
+      border-radius: 10px;
+      overflow: hidden;
+      #playPauseBTN {
+        width: 50px;
+        height: 50px;
+        border: none;
+        overflow: hidden;
+        border-radius: 50%;
+        background-color:$black;
+        outline: none;
+        svg {
+          fill: $blue;
+          overflow: hidden;
+        }
+      }
+      .div_track_content{
+        position: absolute;
+        right: 8px;
+        top: 6px;
+        span{  
+          color: white;
+        }
+        img{
+          width: 50px;
+        }
+      }
+  }
+  .ul_tracks {
+        padding: 0;
+        .li_track{
+            margin-bottom: 2px;
+            padding: 10px;
+            cursor: pointer;
+            overflow: hidden;
+            border: 1px solid $blue;
+            border-radius: 10px;
+            width: 600px;
+            img {
+              width: 50px;
+            }
+            span {
+              color: white;
+            }
+          
+        }
+  }
+}
